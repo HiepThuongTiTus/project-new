@@ -1,10 +1,8 @@
 <p id="notice"><%= notice %></p>
-
 <p>
   <strong>Name:</strong>
   <%= @user.name %>
 </p>
-
 <p>
   <strong>Email:</strong>
   <%= @user.email %>
@@ -13,7 +11,6 @@
   <strong>Phone number:</strong>
   <%= @user.phone_number %>
 </p>
-
 <p>
   <strong>Age:</strong>
   <%= @user.age %>
@@ -22,11 +19,9 @@
   <strong>Birthday:</strong>
   <%= @user.date_of_birth %>
 </p>
-
 <p>
   <strong>Gender:</strong>
   <%= @user.gender %>
 </p>
-
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
