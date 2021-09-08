@@ -13,5 +13,13 @@ Rails.application.routes.draw do
 
   resources :posts
   resources :users
+#   , only: [:index. :new, :edit, :show, 
+#   :destroy
+# ] do 
+#   collection do 
+#     post :create_user
+#     get :signin 
+#   end
+# end
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
